@@ -12,5 +12,5 @@ map_osm = folium.Map(
     attr="&copy; <a href='http://ditu.amap.com/'>高德地图</a>"
 )
 
-m.save('./test01.html')
-map_osm.save('./gaode.html')
+m.save('./result/test01.html')
+map_osm.save('./result/gaode.html')
