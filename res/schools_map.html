@@ -1,0 +1,2543 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_206e51e335b04eb282f50cde1c9b26a1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.3.0/leaflet-dvf.markers.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_206e51e335b04eb282f50cde1c9b26a1" ></div>
+        
+</body>
+<script>    
+    
+            var map_206e51e335b04eb282f50cde1c9b26a1 = L.map(
+                "map_206e51e335b04eb282f50cde1c9b26a1",
+                {
+                    center: [31.759571276923076, 114.50049555384615],
+                    crs: L.CRS.EPSG3857,
+                    zoomControl: true,
+                    zoom: 5,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b132f74e1c3f46deb95cbc34d4d8654a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_206e51e335b04eb282f50cde1c9b26a1);
+        
+    
+            var marker_cluster_751848883c2340acb9122f3382660ee0 = L.markerClusterGroup(
+                {}
+            );
+            map_206e51e335b04eb282f50cde1c9b26a1.addLayer(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+            var regular_polygon_marker_55935811123e4a4b8a8e7d70580d9df0 = new L.RegularPolygonMarker(
+                [29.533155, 106.504959],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_78568b41ef3a4e2aad5c2311cce7c1b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c61003727a24562949d3675bbb72f43 = $(`<div id="html_7c61003727a24562949d3675bbb72f43" style="width: 100.0%; height: 100.0%;">重庆市:7894.24</div>`)[0];
+            popup_78568b41ef3a4e2aad5c2311cce7c1b8.setContent(html_7c61003727a24562949d3675bbb72f43);
+        
+
+        regular_polygon_marker_55935811123e4a4b8a8e7d70580d9df0.bindPopup(popup_78568b41ef3a4e2aad5c2311cce7c1b8)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_8d15795099c7442393748b0c5ad87d8e = new L.RegularPolygonMarker(
+                [31.231707, 121.472641],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_2a96a1dcf22048738af5540654aa9abe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a68c846235ae42a3aed16986a4e11b17 = $(`<div id="html_a68c846235ae42a3aed16986a4e11b17" style="width: 100.0%; height: 100.0%;">上海市:16872.42</div>`)[0];
+            popup_2a96a1dcf22048738af5540654aa9abe.setContent(html_a68c846235ae42a3aed16986a4e11b17);
+        
+
+        regular_polygon_marker_8d15795099c7442393748b0c5ad87d8e.bindPopup(popup_2a96a1dcf22048738af5540654aa9abe)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_cbdfc7e4f96c423f86d3681513ac7821 = new L.RegularPolygonMarker(
+                [39.904987, 116.405289],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_b74f0f1d5a7a4a189b0b07e8ef0a23f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d427ac4405d44b8487175ab2960d42b9 = $(`<div id="html_d427ac4405d44b8487175ab2960d42b9" style="width: 100.0%; height: 100.0%;">北京市:13777.9</div>`)[0];
+            popup_b74f0f1d5a7a4a189b0b07e8ef0a23f9.setContent(html_d427ac4405d44b8487175ab2960d42b9);
+        
+
+        regular_polygon_marker_cbdfc7e4f96c423f86d3681513ac7821.bindPopup(popup_b74f0f1d5a7a4a189b0b07e8ef0a23f9)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_207ef240d5fb4c01bdc4780651977d5a = new L.RegularPolygonMarker(
+                [30.659462, 104.065735],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_da1060527bc44fabbc883d799e378fae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83cc9b5316bc4386be378ce850f75968 = $(`<div id="html_83cc9b5316bc4386be378ce850f75968" style="width: 100.0%; height: 100.0%;">成都市:5551.3</div>`)[0];
+            popup_da1060527bc44fabbc883d799e378fae.setContent(html_83cc9b5316bc4386be378ce850f75968);
+        
+
+        regular_polygon_marker_207ef240d5fb4c01bdc4780651977d5a.bindPopup(popup_da1060527bc44fabbc883d799e378fae)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_feae1e5e755842a1b5d2c48c37f4e5ed = new L.RegularPolygonMarker(
+                [39.125595, 117.190186],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_cca96f07cc4144c7800faf0447067b0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91893cfc068e4f30a75a5f26669348b4 = $(`<div id="html_91893cfc068e4f30a75a5f26669348b4" style="width: 100.0%; height: 100.0%;">天津市:9108.83</div>`)[0];
+            popup_cca96f07cc4144c7800faf0447067b0d.setContent(html_91893cfc068e4f30a75a5f26669348b4);
+        
+
+        regular_polygon_marker_feae1e5e755842a1b5d2c48c37f4e5ed.bindPopup(popup_cca96f07cc4144c7800faf0447067b0d)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_9a79bce3f3424cf097189d6de032a73b = new L.RegularPolygonMarker(
+                [23.125177, 113.28064],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_e866cf3cef2b41b9b7f383936f049e33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8bcbf69e02f46d4b291550348d872be = $(`<div id="html_c8bcbf69e02f46d4b291550348d872be" style="width: 100.0%; height: 100.0%;">广州市:10604.48</div>`)[0];
+            popup_e866cf3cef2b41b9b7f383936f049e33.setContent(html_c8bcbf69e02f46d4b291550348d872be);
+        
+
+        regular_polygon_marker_9a79bce3f3424cf097189d6de032a73b.bindPopup(popup_e866cf3cef2b41b9b7f383936f049e33)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_b8c1aba4f1894d128363e364cbfe92aa = new L.RegularPolygonMarker(
+                [38.867657, 115.48233],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_0e149acc4ebe4491b8c1439102c69399 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fce64c45a09459c86d42cb3b0e5b927 = $(`<div id="html_3fce64c45a09459c86d42cb3b0e5b927" style="width: 100.0%; height: 100.0%;">保定市:2050.3</div>`)[0];
+            popup_0e149acc4ebe4491b8c1439102c69399.setContent(html_3fce64c45a09459c86d42cb3b0e5b927);
+        
+
+        regular_polygon_marker_b8c1aba4f1894d128363e364cbfe92aa.bindPopup(popup_0e149acc4ebe4491b8c1439102c69399)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_cd81a42befba4ff98fb9c4705d6ece59 = new L.RegularPolygonMarker(
+                [45.756966, 126.642464],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_ea0a6c958e1f42f58d881a2d203a6fc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_366dd6b9626e4ca2ac5cfabc8e733929 = $(`<div id="html_366dd6b9626e4ca2ac5cfabc8e733929" style="width: 100.0%; height: 100.0%;">哈尔滨市:3665.9</div>`)[0];
+            popup_ea0a6c958e1f42f58d881a2d203a6fc7.setContent(html_366dd6b9626e4ca2ac5cfabc8e733929);
+        
+
+        regular_polygon_marker_cd81a42befba4ff98fb9c4705d6ece59.bindPopup(popup_ea0a6c958e1f42f58d881a2d203a6fc7)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_f987880bfca54ed29361f0ea748ec441 = new L.RegularPolygonMarker(
+                [31.299379, 120.619583],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_20d4a761919c4c178cdb91b235cbfec3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39c807a909e94d938721c3a157f55dab = $(`<div id="html_39c807a909e94d938721c3a157f55dab" style="width: 100.0%; height: 100.0%;">苏州市:9000.0</div>`)[0];
+            popup_20d4a761919c4c178cdb91b235cbfec3.setContent(html_39c807a909e94d938721c3a157f55dab);
+        
+
+        regular_polygon_marker_f987880bfca54ed29361f0ea748ec441.bindPopup(popup_20d4a761919c4c178cdb91b235cbfec3)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_c6f766df6a29459c9e3cd453fb784f62 = new L.RegularPolygonMarker(
+                [22.547001, 114.085945],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_243b4f360b3c4b06b2f7610982f0ef06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e05760b43db41578268cdf41f4d5430 = $(`<div id="html_1e05760b43db41578268cdf41f4d5430" style="width: 100.0%; height: 100.0%;">深圳市:9510.91</div>`)[0];
+            popup_243b4f360b3c4b06b2f7610982f0ef06.setContent(html_1e05760b43db41578268cdf41f4d5430);
+        
+
+        regular_polygon_marker_c6f766df6a29459c9e3cd453fb784f62.bindPopup(popup_243b4f360b3c4b06b2f7610982f0ef06)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_8025080391ab45a2a9131aac58e6fe77 = new L.RegularPolygonMarker(
+                [32.999081, 112.540916],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_b5770e221c304b7e96354097d86209c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0002f3538e774da79593c9614b3fa187 = $(`<div id="html_0002f3538e774da79593c9614b3fa187" style="width: 100.0%; height: 100.0%;">南阳市:1955.84</div>`)[0];
+            popup_b5770e221c304b7e96354097d86209c3.setContent(html_0002f3538e774da79593c9614b3fa187);
+        
+
+        regular_polygon_marker_8025080391ab45a2a9131aac58e6fe77.bindPopup(popup_b5770e221c304b7e96354097d86209c3)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_562716070efa4ea2b22c3172e9714be6 = new L.RegularPolygonMarker(
+                [38.045475, 114.502464],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_91ee13f9725d4ce5990eceafaef96365 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_233153db1f5f4898bcee8d5347e8afba = $(`<div id="html_233153db1f5f4898bcee8d5347e8afba" style="width: 100.0%; height: 100.0%;">石家庄市:3401.0</div>`)[0];
+            popup_91ee13f9725d4ce5990eceafaef96365.setContent(html_233153db1f5f4898bcee8d5347e8afba);
+        
+
+        regular_polygon_marker_562716070efa4ea2b22c3172e9714be6.bindPopup(popup_91ee13f9725d4ce5990eceafaef96365)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_0e24f91b4de9489fad21efa839b853d4 = new L.RegularPolygonMarker(
+                [35.065281, 118.326447],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_ae37c406fd4e4696add8e533d8688eaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_339587caf8ec47569b09b3dccf74d6bc = $(`<div id="html_339587caf8ec47569b09b3dccf74d6bc" style="width: 100.0%; height: 100.0%;">临沂市:2400.0</div>`)[0];
+            popup_ae37c406fd4e4696add8e533d8688eaa.setContent(html_339587caf8ec47569b09b3dccf74d6bc);
+        
+
+        regular_polygon_marker_0e24f91b4de9489fad21efa839b853d4.bindPopup(popup_ae37c406fd4e4696add8e533d8688eaa)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_04e0915276754b1d8d9d37e9d6178ff6 = new L.RegularPolygonMarker(
+                [30.584354, 114.298569],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_8c7ae879f98d4ba8a8f442a57566a059 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d974d99e6fa8460097dbcf25cbf08c19 = $(`<div id="html_d974d99e6fa8460097dbcf25cbf08c19" style="width: 100.0%; height: 100.0%;">武汉市:5515.76</div>`)[0];
+            popup_8c7ae879f98d4ba8a8f442a57566a059.setContent(html_d974d99e6fa8460097dbcf25cbf08c19);
+        
+
+        regular_polygon_marker_04e0915276754b1d8d9d37e9d6178ff6.bindPopup(popup_8c7ae879f98d4ba8a8f442a57566a059)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_cf98c6821c6f4729829e8d4e4ec0ba50 = new L.RegularPolygonMarker(
+                [36.612274, 114.490685],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_4633459896204ebca41fb68209e8a35f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3765f559568f40dda18f32f5f4995070 = $(`<div id="html_3765f559568f40dda18f32f5f4995070" style="width: 100.0%; height: 100.0%;">邯郸市:2342.2</div>`)[0];
+            popup_4633459896204ebca41fb68209e8a35f.setContent(html_3765f559568f40dda18f32f5f4995070);
+        
+
+        regular_polygon_marker_cf98c6821c6f4729829e8d4e4ec0ba50.bindPopup(popup_4633459896204ebca41fb68209e8a35f)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_4e75e3861d6e47c48439ddbbb505749d = new L.RegularPolygonMarker(
+                [28.000574, 120.672112],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_5ee16e8546374a30b1f6940cbd1eccd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bece9a5160534e47bd06e6873227461c = $(`<div id="html_bece9a5160534e47bd06e6873227461c" style="width: 100.0%; height: 100.0%;">温州市:2925.57</div>`)[0];
+            popup_5ee16e8546374a30b1f6940cbd1eccd3.setContent(html_bece9a5160534e47bd06e6873227461c);
+        
+
+        regular_polygon_marker_4e75e3861d6e47c48439ddbbb505749d.bindPopup(popup_5ee16e8546374a30b1f6940cbd1eccd3)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_dc8553f418e947838ffea981dc24c03b = new L.RegularPolygonMarker(
+                [36.709251, 119.107079],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_5f95a63607c149d69527cf96128303b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28fab2b60661499b8cd516ef7ffca89e = $(`<div id="html_28fab2b60661499b8cd516ef7ffca89e" style="width: 100.0%; height: 100.0%;">潍坊市:3090.9</div>`)[0];
+            popup_5f95a63607c149d69527cf96128303b3.setContent(html_28fab2b60661499b8cd516ef7ffca89e);
+        
+
+        regular_polygon_marker_dc8553f418e947838ffea981dc24c03b.bindPopup(popup_5f95a63607c149d69527cf96128303b3)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_67a332908c134b7997bdf3b975aea322 = new L.RegularPolygonMarker(
+                [33.620358, 114.649651],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_67e829fe9633445abc3314721f99e11a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65616fc158f5439692aa8cdecabc9712 = $(`<div id="html_65616fc158f5439692aa8cdecabc9712" style="width: 100.0%; height: 100.0%;">周口市:1227.9</div>`)[0];
+            popup_67e829fe9633445abc3314721f99e11a.setContent(html_65616fc158f5439692aa8cdecabc9712);
+        
+
+        regular_polygon_marker_67a332908c134b7997bdf3b975aea322.bindPopup(popup_67e829fe9633445abc3314721f99e11a)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_f2fc37266eba44e4a8f0e37e203e0460 = new L.RegularPolygonMarker(
+                [36.082981, 120.355171],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_876560383204468589f894d4012afcbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4be7bb3be7b14b289d8b417c29dec47e = $(`<div id="html_4be7bb3be7b14b289d8b417c29dec47e" style="width: 100.0%; height: 100.0%;">青岛市:5666.19</div>`)[0];
+            popup_876560383204468589f894d4012afcbd.setContent(html_4be7bb3be7b14b289d8b417c29dec47e);
+        
+
+        regular_polygon_marker_f2fc37266eba44e4a8f0e37e203e0460.bindPopup(popup_876560383204468589f894d4012afcbd)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_fe36e767e2c8422a80597ad15c453d63 = new L.RegularPolygonMarker(
+                [30.287458, 120.15358],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_46d9734e24ee43089fc7074e7df575ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68f10794b8c74f6aad7611b28332ead4 = $(`<div id="html_68f10794b8c74f6aad7611b28332ead4" style="width: 100.0%; height: 100.0%;">杭州市:5945.82</div>`)[0];
+            popup_46d9734e24ee43089fc7074e7df575ed.setContent(html_68f10794b8c74f6aad7611b28332ead4);
+        
+
+        regular_polygon_marker_fe36e767e2c8422a80597ad15c453d63.bindPopup(popup_46d9734e24ee43089fc7074e7df575ed)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_20df37de1f5349cfa4a5ea7fb8dbe2ef = new L.RegularPolygonMarker(
+                [34.757977, 113.665413],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_d357f77184dc47ccb802d1ef6692b5b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2c157ec4e8841fa8335ca7b462ce9fc = $(`<div id="html_a2c157ec4e8841fa8335ca7b462ce9fc" style="width: 100.0%; height: 100.0%;">郑州市:4000.0</div>`)[0];
+            popup_d357f77184dc47ccb802d1ef6692b5b4.setContent(html_a2c157ec4e8841fa8335ca7b462ce9fc);
+        
+
+        regular_polygon_marker_20df37de1f5349cfa4a5ea7fb8dbe2ef.bindPopup(popup_d357f77184dc47ccb802d1ef6692b5b4)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_57f0f08822534a20979e5e3efd13386a = new L.RegularPolygonMarker(
+                [34.261791, 117.184814],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_fbb3b4c5e19e4890ab22831f4bd40219 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88e5b9ee923e420b86c1358ec9b6ad16 = $(`<div id="html_88e5b9ee923e420b86c1358ec9b6ad16" style="width: 100.0%; height: 100.0%;">徐州市:2866.93</div>`)[0];
+            popup_fbb3b4c5e19e4890ab22831f4bd40219.setContent(html_88e5b9ee923e420b86c1358ec9b6ad16);
+        
+
+        regular_polygon_marker_57f0f08822534a20979e5e3efd13386a.bindPopup(popup_fbb3b4c5e19e4890ab22831f4bd40219)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_5b0cb9e1a6634ec29f231c4f44910ba4 = new L.RegularPolygonMarker(
+                [34.263161, 108.948021],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_d83546f7c11640fca1bfdb11391216d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71cd7cc0c141415c8221b0f1d04d8204 = $(`<div id="html_71cd7cc0c141415c8221b0f1d04d8204" style="width: 100.0%; height: 100.0%;">西安市:3241.49</div>`)[0];
+            popup_d83546f7c11640fca1bfdb11391216d5.setContent(html_71cd7cc0c141415c8221b0f1d04d8204);
+        
+
+        regular_polygon_marker_5b0cb9e1a6634ec29f231c4f44910ba4.bindPopup(popup_d83546f7c11640fca1bfdb11391216d5)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_47b8f45b02754b17b94f6707bcaee8c1 = new L.RegularPolygonMarker(
+                [25.850969, 114.940277],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_9d46664c20bd408e91bc65371fbde718 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6fa4398ea68429dbb20d7e9f929795e = $(`<div id="html_b6fa4398ea68429dbb20d7e9f929795e" style="width: 100.0%; height: 100.0%;">赣州市:1119.47</div>`)[0];
+            popup_9d46664c20bd408e91bc65371fbde718.setContent(html_b6fa4398ea68429dbb20d7e9f929795e);
+        
+
+        regular_polygon_marker_47b8f45b02754b17b94f6707bcaee8c1.bindPopup(popup_9d46664c20bd408e91bc65371fbde718)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_fca0e080dc60477d96a0524d233d7ee8 = new L.RegularPolygonMarker(
+                [35.246532, 115.469383],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_62bc9525fa704445bda9a0ecef0b14f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f42099fcbb384f039d2bc8e14505ebd7 = $(`<div id="html_f42099fcbb384f039d2bc8e14505ebd7" style="width: 100.0%; height: 100.0%;">菏泽市:1151.58</div>`)[0];
+            popup_62bc9525fa704445bda9a0ecef0b14f9.setContent(html_f42099fcbb384f039d2bc8e14505ebd7);
+        
+
+        regular_polygon_marker_fca0e080dc60477d96a0524d233d7ee8.bindPopup(popup_62bc9525fa704445bda9a0ecef0b14f9)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_a3ec2f88e7704767a7e4942606712867 = new L.RegularPolygonMarker(
+                [23.046238, 113.746262],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_7746948bd2074fe68b5dd808168ea9d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f9999d229a940d3a4e2113badc7f1bb = $(`<div id="html_9f9999d229a940d3a4e2113badc7f1bb" style="width: 100.0%; height: 100.0%;">东莞市:4246.25</div>`)[0];
+            popup_7746948bd2074fe68b5dd808168ea9d0.setContent(html_9f9999d229a940d3a4e2113badc7f1bb);
+        
+
+        regular_polygon_marker_a3ec2f88e7704767a7e4942606712867.bindPopup(popup_7746948bd2074fe68b5dd808168ea9d0)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_ddecf161ef494adcbeb4981062cb74dc = new L.RegularPolygonMarker(
+                [24.908854, 118.589424],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_776b168e0770457ea4250bc2f8cb1341 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4cb166d8cfd42ba94c39982ab438a0d = $(`<div id="html_f4cb166d8cfd42ba94c39982ab438a0d" style="width: 100.0%; height: 100.0%;">泉州市:3564.76</div>`)[0];
+            popup_776b168e0770457ea4250bc2f8cb1341.setContent(html_f4cb166d8cfd42ba94c39982ab438a0d);
+        
+
+        regular_polygon_marker_ddecf161ef494adcbeb4981062cb74dc.bindPopup(popup_776b168e0770457ea4250bc2f8cb1341)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_db25d2e4f7c149dfb15b0f86ed535f21 = new L.RegularPolygonMarker(
+                [41.796768, 123.429092],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_f0d8280c7ca14a63bb2b122ceb57386c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98469e90d6ad4fcc8a338d5a47ead328 = $(`<div id="html_98469e90d6ad4fcc8a338d5a47ead328" style="width: 100.0%; height: 100.0%;">沈阳市:5017.0</div>`)[0];
+            popup_f0d8280c7ca14a63bb2b122ceb57386c.setContent(html_98469e90d6ad4fcc8a338d5a47ead328);
+        
+
+        regular_polygon_marker_db25d2e4f7c149dfb15b0f86ed535f21.bindPopup(popup_f0d8280c7ca14a63bb2b122ceb57386c)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_5cbbb79576b44e1b9311fe2b4703f347 = new L.RegularPolygonMarker(
+                [35.415394, 116.587242],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_7abf3d502a7c4489a81e8cab689c2cc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f2170201d624078833a04ab30b76213 = $(`<div id="html_8f2170201d624078833a04ab30b76213" style="width: 100.0%; height: 100.0%;">济宁市:2542.8</div>`)[0];
+            popup_7abf3d502a7c4489a81e8cab689c2cc7.setContent(html_8f2170201d624078833a04ab30b76213);
+        
+
+        regular_polygon_marker_5cbbb79576b44e1b9311fe2b4703f347.bindPopup(popup_7abf3d502a7c4489a81e8cab689c2cc7)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_2080f9ba30e74b378f6df8cc5aed43e4 = new L.RegularPolygonMarker(
+                [32.041546, 118.76741],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_cd7c0252a02144cfbf650ba9b7ed7222 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9437bfd1d414af88628b31216e467c1 = $(`<div id="html_e9437bfd1d414af88628b31216e467c1" style="width: 100.0%; height: 100.0%;">南京市:5010.36</div>`)[0];
+            popup_cd7c0252a02144cfbf650ba9b7ed7222.setContent(html_e9437bfd1d414af88628b31216e467c1);
+        
+
+        regular_polygon_marker_2080f9ba30e74b378f6df8cc5aed43e4.bindPopup(popup_cd7c0252a02144cfbf650ba9b7ed7222)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_a4cafc2f9e7548df8215e4d0be81edb5 = new L.RegularPolygonMarker(
+                [43.886841, 125.324501],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_d57e31c55e134450ba419c8a4601f92a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b080a992d2c4460b7d4c2f562842765 = $(`<div id="html_7b080a992d2c4460b7d4c2f562842765" style="width: 100.0%; height: 100.0%;">长春市:3369.7</div>`)[0];
+            popup_d57e31c55e134450ba419c8a4601f92a.setContent(html_7b080a992d2c4460b7d4c2f562842765);
+        
+
+        regular_polygon_marker_a4cafc2f9e7548df8215e4d0be81edb5.bindPopup(popup_d57e31c55e134450ba419c8a4601f92a)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_0493be4824c14f66a926296c2a4f1375 = new L.RegularPolygonMarker(
+                [29.868387, 121.549789],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_c9a10c9dd2e84e98a27b5ded88439b2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69b3bfa3c9c6493f972d47bae6a20046 = $(`<div id="html_69b3bfa3c9c6493f972d47bae6a20046" style="width: 100.0%; height: 100.0%;">宁波市:5125.82</div>`)[0];
+            popup_c9a10c9dd2e84e98a27b5ded88439b2a.setContent(html_69b3bfa3c9c6493f972d47bae6a20046);
+        
+
+        regular_polygon_marker_0493be4824c14f66a926296c2a4f1375.bindPopup(popup_c9a10c9dd2e84e98a27b5ded88439b2a)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_9226818e05dd41ee9c11fd497a8e9018 = new L.RegularPolygonMarker(
+                [32.896969, 115.819733],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_61c6465c8f1a4ac19495762956bc77c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a0042c5572244fc8f229004af4e6ca1 = $(`<div id="html_8a0042c5572244fc8f229004af4e6ca1" style="width: 100.0%; height: 100.0%;">阜阳市:720.0</div>`)[0];
+            popup_61c6465c8f1a4ac19495762956bc77c7.setContent(html_8a0042c5572244fc8f229004af4e6ca1);
+        
+
+        regular_polygon_marker_9226818e05dd41ee9c11fd497a8e9018.bindPopup(popup_61c6465c8f1a4ac19495762956bc77c7)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_9987eaa7739f483896521eab639b349c = new L.RegularPolygonMarker(
+                [39.635113, 118.175392],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_92967ded8e74461c85c7a518165812fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aad8a5bf12c84e31b636b1a544a5cd11 = $(`<div id="html_aad8a5bf12c84e31b636b1a544a5cd11" style="width: 100.0%; height: 100.0%;">唐山市:4469.08</div>`)[0];
+            popup_92967ded8e74461c85c7a518165812fb.setContent(html_aad8a5bf12c84e31b636b1a544a5cd11);
+        
+
+        regular_polygon_marker_9987eaa7739f483896521eab639b349c.bindPopup(popup_92967ded8e74461c85c7a518165812fb)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_3c82bee886a846e5b7a2fb24e3e6faf2 = new L.RegularPolygonMarker(
+                [34.437054, 115.650497],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_43c76b3512b54465bcc542ae51de8deb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_087d814dc9444349a235b495eb33b6fb = $(`<div id="html_087d814dc9444349a235b495eb33b6fb" style="width: 100.0%; height: 100.0%;">商丘市:1140.0</div>`)[0];
+            popup_43c76b3512b54465bcc542ae51de8deb.setContent(html_087d814dc9444349a235b495eb33b6fb);
+        
+
+        regular_polygon_marker_3c82bee886a846e5b7a2fb24e3e6faf2.bindPopup(popup_43c76b3512b54465bcc542ae51de8deb)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_d9ba67f8b42f45c6bd0b5170beae12bf = new L.RegularPolygonMarker(
+                [32.016212, 120.864609],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_151d0eb92b724584a5dd361e476b59c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23a40a788e6c4398858b3eb99becffe2 = $(`<div id="html_23a40a788e6c4398858b3eb99becffe2" style="width: 100.0%; height: 100.0%;">南通市:3417.88</div>`)[0];
+            popup_151d0eb92b724584a5dd361e476b59c5.setContent(html_23a40a788e6c4398858b3eb99becffe2);
+        
+
+        regular_polygon_marker_d9ba67f8b42f45c6bd0b5170beae12bf.bindPopup(popup_151d0eb92b724584a5dd361e476b59c5)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_34d51bc209664cdaad0a00a40512e097 = new L.RegularPolygonMarker(
+                [33.377632, 120.139999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_959a171b94014e8ebffddce9f25ec234 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e9441dd626549b7b0193de501f5f9cd = $(`<div id="html_0e9441dd626549b7b0193de501f5f9cd" style="width: 100.0%; height: 100.0%;">盐城市:2266.26</div>`)[0];
+            popup_959a171b94014e8ebffddce9f25ec234.setContent(html_0e9441dd626549b7b0193de501f5f9cd);
+        
+
+        regular_polygon_marker_34d51bc209664cdaad0a00a40512e097.bindPopup(popup_959a171b94014e8ebffddce9f25ec234)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_7a8e3065486049a28f72ef150cb623e8 = new L.RegularPolygonMarker(
+                [32.980167, 114.024734],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_50b38721c8a74ddbab842f88d49f386e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_996393dff45b40758ea0f41ef5d8d66a = $(`<div id="html_996393dff45b40758ea0f41ef5d8d66a" style="width: 100.0%; height: 100.0%;">驻马店市:1055.45</div>`)[0];
+            popup_50b38721c8a74ddbab842f88d49f386e.setContent(html_996393dff45b40758ea0f41ef5d8d66a);
+        
+
+        regular_polygon_marker_7a8e3065486049a28f72ef150cb623e8.bindPopup(popup_50b38721c8a74ddbab842f88d49f386e)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_203a6d3adbad4cdcae1fef0d6962b2d5 = new L.RegularPolygonMarker(
+                [23.028763, 113.122719],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_fb83209c58d04b24a869612b0fc51a74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c31be24f8ecf4ebf9cb22fa941e2ca75 = $(`<div id="html_c31be24f8ecf4ebf9cb22fa941e2ca75" style="width: 100.0%; height: 100.0%;">佛山市:5651.52</div>`)[0];
+            popup_fb83209c58d04b24a869612b0fc51a74.setContent(html_c31be24f8ecf4ebf9cb22fa941e2ca75);
+        
+
+        regular_polygon_marker_203a6d3adbad4cdcae1fef0d6962b2d5.bindPopup(popup_fb83209c58d04b24a869612b0fc51a74)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_d0167cda503c4f2bbb216fc74df8f803 = new L.RegularPolygonMarker(
+                [26.900358, 112.607697],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_1d8f365e79aa48aba9cef8151ccacb9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ab1e63794af4f37bb85fd19c97e6f7f = $(`<div id="html_0ab1e63794af4f37bb85fd19c97e6f7f" style="width: 100.0%; height: 100.0%;">衡阳市:1420.34</div>`)[0];
+            popup_1d8f365e79aa48aba9cef8151ccacb9f.setContent(html_0ab1e63794af4f37bb85fd19c97e6f7f);
+        
+
+        regular_polygon_marker_d0167cda503c4f2bbb216fc74df8f803.bindPopup(popup_1d8f365e79aa48aba9cef8151ccacb9f)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_8e0c241253af4a1bb966d89bf8bf70d4 = new L.RegularPolygonMarker(
+                [38.310581, 116.85746],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_ae90a64466c048a4a2a126e3a75757e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_857000b238fc45a8811314be170f924e = $(`<div id="html_857000b238fc45a8811314be170f924e" style="width: 100.0%; height: 100.0%;">沧州市:2203.0</div>`)[0];
+            popup_ae90a64466c048a4a2a126e3a75757e7.setContent(html_857000b238fc45a8811314be170f924e);
+        
+
+        regular_polygon_marker_8e0c241253af4a1bb966d89bf8bf70d4.bindPopup(popup_ae90a64466c048a4a2a126e3a75757e7)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_8f052a328bf44dcca7617c06a1df3cac = new L.RegularPolygonMarker(
+                [26.075302, 119.306236],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_86ee73902db944bba5f6268c6696b855 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8150539c15eb412ebadef4ba2070f79d = $(`<div id="html_8150539c15eb412ebadef4ba2070f79d" style="width: 100.0%; height: 100.0%;">福州市:3068.21</div>`)[0];
+            popup_86ee73902db944bba5f6268c6696b855.setContent(html_8150539c15eb412ebadef4ba2070f79d);
+        
+
+        regular_polygon_marker_8f052a328bf44dcca7617c06a1df3cac.bindPopup(popup_86ee73902db944bba5f6268c6696b855)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_71320790ee0d48bba293aa4773ba4c77 = new L.RegularPolygonMarker(
+                [37.068199, 114.50885],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_5cb6db08d25c48caa9a947a89081a156 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17563452ab4349cdaec4b6175a7431c2 = $(`<div id="html_17563452ab4349cdaec4b6175a7431c2" style="width: 100.0%; height: 100.0%;">邢台市:1210.62</div>`)[0];
+            popup_5cb6db08d25c48caa9a947a89081a156.setContent(html_17563452ab4349cdaec4b6175a7431c2);
+        
+
+        regular_polygon_marker_71320790ee0d48bba293aa4773ba4c77.bindPopup(popup_5cb6db08d25c48caa9a947a89081a156)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_e170eafb2618466eae822cd990381cb7 = new L.RegularPolygonMarker(
+                [27.237843, 111.469231],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_6a59f76f3f0f45eba02c0e3c828d1d0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8560cf57c14d45b19ff5b3f8de0f7576 = $(`<div id="html_8560cf57c14d45b19ff5b3f8de0f7576" style="width: 100.0%; height: 100.0%;">邵阳市:730.33</div>`)[0];
+            popup_6a59f76f3f0f45eba02c0e3c828d1d0c.setContent(html_8560cf57c14d45b19ff5b3f8de0f7576);
+        
+
+        regular_polygon_marker_e170eafb2618466eae822cd990381cb7.bindPopup(popup_6a59f76f3f0f45eba02c0e3c828d1d0c)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_cb82cf2294ea44bc89eda0aa7683db9d = new L.RegularPolygonMarker(
+                [28.19409, 112.982277],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_0df1718a128f446d9b421702b485a32f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daf4b6faa9d44eff9af86749f572cb17 = $(`<div id="html_daf4b6faa9d44eff9af86749f572cb17" style="width: 100.0%; height: 100.0%;">长沙市:4547.06</div>`)[0];
+            popup_0df1718a128f446d9b421702b485a32f.setContent(html_daf4b6faa9d44eff9af86749f572cb17);
+        
+
+        regular_polygon_marker_cb82cf2294ea44bc89eda0aa7683db9d.bindPopup(popup_0df1718a128f446d9b421702b485a32f)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_41eafae749d446dda11b1e19b76f62e0 = new L.RegularPolygonMarker(
+                [21.274899, 110.364975],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_0b9eed8b2ad6420c9627dcdace035842 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48bfbf997bc84cb18f2318a2c7fd22be = $(`<div id="html_48bfbf997bc84cb18f2318a2c7fd22be" style="width: 100.0%; height: 100.0%;">湛江市:1402.77</div>`)[0];
+            popup_0b9eed8b2ad6420c9627dcdace035842.setContent(html_48bfbf997bc84cb18f2318a2c7fd22be);
+        
+
+        regular_polygon_marker_41eafae749d446dda11b1e19b76f62e0.bindPopup(popup_0b9eed8b2ad6420c9627dcdace035842)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_98557809ebc14baabf60aff9b92bcf2c = new L.RegularPolygonMarker(
+                [37.539295, 121.39138],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_41f19393021b479daec400bcb43e8f6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15f1d70e6ab24bc1abbf345547857262 = $(`<div id="html_15f1d70e6ab24bc1abbf345547857262" style="width: 100.0%; height: 100.0%;">烟台市:4358.46</div>`)[0];
+            popup_41f19393021b479daec400bcb43e8f6c.setContent(html_15f1d70e6ab24bc1abbf345547857262);
+        
+
+        regular_polygon_marker_98557809ebc14baabf60aff9b92bcf2c.bindPopup(popup_41f19393021b479daec400bcb43e8f6c)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_127b71b464884990a969beaeeeb14514 = new L.RegularPolygonMarker(
+                [36.675808, 117.000923],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_559f4d42e39642c1a934a82abbca50ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50e13f70f491489d8a7fa5e052e68536 = $(`<div id="html_50e13f70f491489d8a7fa5e052e68536" style="width: 100.0%; height: 100.0%;">济南市:3910.8</div>`)[0];
+            popup_559f4d42e39642c1a934a82abbca50ff.setContent(html_50e13f70f491489d8a7fa5e052e68536);
+        
+
+        regular_polygon_marker_127b71b464884990a969beaeeeb14514.bindPopup(popup_559f4d42e39642c1a934a82abbca50ff)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_16bae65726164978bcc6d7c5e8e742a6 = new L.RegularPolygonMarker(
+                [38.914589, 121.618622],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_5790c865fee84b509454ef963e054c09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5898a4347b2e433fb0b914092c7f688f = $(`<div id="html_5898a4347b2e433fb0b914092c7f688f" style="width: 100.0%; height: 100.0%;">大连市:5158.1</div>`)[0];
+            popup_5790c865fee84b509454ef963e054c09.setContent(html_5898a4347b2e433fb0b914092c7f688f);
+        
+
+        regular_polygon_marker_16bae65726164978bcc6d7c5e8e742a6.bindPopup(popup_5790c865fee84b509454ef963e054c09)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_0e6446ff5a984601b37ef3af413fe852 = new L.RegularPolygonMarker(
+                [22.82402, 108.320007],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_baaee7d28916471da5736bb4b9003738 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce5ae829ccee4e7bb979a9159dc3de37 = $(`<div id="html_ce5ae829ccee4e7bb979a9159dc3de37" style="width: 100.0%; height: 100.0%;">南宁市:1800.43</div>`)[0];
+            popup_baaee7d28916471da5736bb4b9003738.setContent(html_ce5ae829ccee4e7bb979a9159dc3de37);
+        
+
+        regular_polygon_marker_0e6446ff5a984601b37ef3af413fe852.bindPopup(popup_baaee7d28916471da5736bb4b9003738)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_5399e0420f994832b7533e9dbd4b7e57 = new L.RegularPolygonMarker(
+                [28.44442, 117.971184],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_6498bc1f15f140a887a6f56878a0deb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e91ef23c36c46ae926ecae0b1eed226 = $(`<div id="html_7e91ef23c36c46ae926ecae0b1eed226" style="width: 100.0%; height: 100.0%;">上饶市:901.0</div>`)[0];
+            popup_6498bc1f15f140a887a6f56878a0deb9.setContent(html_7e91ef23c36c46ae926ecae0b1eed226);
+        
+
+        regular_polygon_marker_5399e0420f994832b7533e9dbd4b7e57.bindPopup(popup_6498bc1f15f140a887a6f56878a0deb9)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_259bf7842e1c4fd8bcc0daa11e39de42 = new L.RegularPolygonMarker(
+                [34.66304, 112.434471],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_80dd8d5d392c44da8197c97f8eb36b38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fa540dce5374ba9afb0154456de9765 = $(`<div id="html_5fa540dce5374ba9afb0154456de9765" style="width: 100.0%; height: 100.0%;">洛阳市:2321.2</div>`)[0];
+            popup_80dd8d5d392c44da8197c97f8eb36b38.setContent(html_5fa540dce5374ba9afb0154456de9765);
+        
+
+        regular_polygon_marker_259bf7842e1c4fd8bcc0daa11e39de42.bindPopup(popup_80dd8d5d392c44da8197c97f8eb36b38)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_4c775d9603b34842bd4ad62849d731d3 = new L.RegularPolygonMarker(
+                [27.301693, 105.285011],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_fa10b8918d1745c7a30c68cd62353d20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7f586fbf1f648008516e05f5c2b1060 = $(`<div id="html_f7f586fbf1f648008516e05f5c2b1060" style="width: 100.0%; height: 100.0%;">毕节地区:600.85</div>`)[0];
+            popup_fa10b8918d1745c7a30c68cd62353d20.setContent(html_f7f586fbf1f648008516e05f5c2b1060);
+        
+
+        regular_polygon_marker_4c775d9603b34842bd4ad62849d731d3.bindPopup(popup_fa10b8918d1745c7a30c68cd62353d20)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_892a575870cc4892a7db7b995faa4a27 = new L.RegularPolygonMarker(
+                [25.040609, 102.71225],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_ae04b02d5b0b4f4ba8784581a5996bc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62ac067aff13470d90eacc676c0528fb = $(`<div id="html_62ac067aff13470d90eacc676c0528fb" style="width: 100.0%; height: 100.0%;">昆明市:2120.37</div>`)[0];
+            popup_ae04b02d5b0b4f4ba8784581a5996bc8.setContent(html_62ac067aff13470d90eacc676c0528fb);
+        
+
+        regular_polygon_marker_892a575870cc4892a7db7b995faa4a27.bindPopup(popup_ae04b02d5b0b4f4ba8784581a5996bc8)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_a6f707e73e244e64879f9050ae5bf840 = new L.RegularPolygonMarker(
+                [31.57473, 120.301666],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_10e8e6e201ad4cc5b1b3aedbc7cdca77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74a7a6217cf84b97ac581393cb480a4d = $(`<div id="html_74a7a6217cf84b97ac581393cb480a4d" style="width: 100.0%; height: 100.0%;">无锡市:5758.0</div>`)[0];
+            popup_10e8e6e201ad4cc5b1b3aedbc7cdca77.setContent(html_74a7a6217cf84b97ac581393cb480a4d);
+        
+
+        regular_polygon_marker_a6f707e73e244e64879f9050ae5bf840.bindPopup(popup_10e8e6e201ad4cc5b1b3aedbc7cdca77)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_cfd5958fc93541b3b0687fabfb3580b4 = new L.RegularPolygonMarker(
+                [30.79528, 106.082977],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_40f924e4736345888aa49b75ef761094 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e027fec22e6d4eb79c82d88166126b89 = $(`<div id="html_e027fec22e6d4eb79c82d88166126b89" style="width: 100.0%; height: 100.0%;">南充市:827.82</div>`)[0];
+            popup_40f924e4736345888aa49b75ef761094.setContent(html_e027fec22e6d4eb79c82d88166126b89);
+        
+
+        regular_polygon_marker_cfd5958fc93541b3b0687fabfb3580b4.bindPopup(popup_40f924e4736345888aa49b75ef761094)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_5c79457c013f442aa6de590dd3570af8 = new L.RegularPolygonMarker(
+                [30.447712, 114.879364],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_1b4b10c7bc844490b3a3c9684a032615 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4d492f6b41144a8a970ee7ca8a1afdb = $(`<div id="html_d4d492f6b41144a8a970ee7ca8a1afdb" style="width: 100.0%; height: 100.0%;">黄冈市:862.3</div>`)[0];
+            popup_1b4b10c7bc844490b3a3c9684a032615.setContent(html_d4d492f6b41144a8a970ee7ca8a1afdb);
+        
+
+        regular_polygon_marker_5c79457c013f442aa6de590dd3570af8.bindPopup(popup_1b4b10c7bc844490b3a3c9684a032615)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_e5a742338c4a43c590781fa044039401 = new L.RegularPolygonMarker(
+                [27.706627, 106.937263],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_c1030986a15f456a8eb325b09343896e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b57d1f7bae5484bacd8323384f4b77b = $(`<div id="html_0b57d1f7bae5484bacd8323384f4b77b" style="width: 100.0%; height: 100.0%;">遵义市:908.76</div>`)[0];
+            popup_c1030986a15f456a8eb325b09343896e.setContent(html_0b57d1f7bae5484bacd8323384f4b77b);
+        
+
+        regular_polygon_marker_e5a742338c4a43c590781fa044039401.bindPopup(popup_c1030986a15f456a8eb325b09343896e)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_37fc41de66ee424f8c5344edae7705bd = new L.RegularPolygonMarker(
+                [32.123276, 114.075027],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_a938fedc5f854d9492d88d4df5e4fe25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f48274bcbc543b9a275e32f8b9203a7 = $(`<div id="html_7f48274bcbc543b9a275e32f8b9203a7" style="width: 100.0%; height: 100.0%;">信阳市:1092.23</div>`)[0];
+            popup_a938fedc5f854d9492d88d4df5e4fe25.setContent(html_7f48274bcbc543b9a275e32f8b9203a7);
+        
+
+        regular_polygon_marker_37fc41de66ee424f8c5344edae7705bd.bindPopup(popup_a938fedc5f854d9492d88d4df5e4fe25)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_ae18d7b63d41403ca778a2e01f606756 = new L.RegularPolygonMarker(
+                [28.661379, 121.428596],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_7a004e9021e148fdb3cf16f02d429756 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17cd15610b6e4d5f8aae5c98289a8b92 = $(`<div id="html_17cd15610b6e4d5f8aae5c98289a8b92" style="width: 100.0%; height: 100.0%;">台州市:2415.12</div>`)[0];
+            popup_7a004e9021e148fdb3cf16f02d429756.setContent(html_17cd15610b6e4d5f8aae5c98289a8b92);
+        
+
+        regular_polygon_marker_ae18d7b63d41403ca778a2e01f606756.bindPopup(popup_7a004e9021e148fdb3cf16f02d429756)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_02a55be0a3db406bb1ef14427663e308 = new L.RegularPolygonMarker(
+                [23.543777, 116.355736],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_9e28616070154441bec7d77168dd6e66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8683e9ee64f44e7f80e37f4971bc04d1 = $(`<div id="html_8683e9ee64f44e7f80e37f4971bc04d1" style="width: 100.0%; height: 100.0%;">揭阳市:1008.99</div>`)[0];
+            popup_9e28616070154441bec7d77168dd6e66.setContent(html_8683e9ee64f44e7f80e37f4971bc04d1);
+        
+
+        regular_polygon_marker_02a55be0a3db406bb1ef14427663e308.bindPopup(popup_9e28616070154441bec7d77168dd6e66)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_942ca3a8854045a2aeafb4134c2bdc97 = new L.RegularPolygonMarker(
+                [25.501556, 103.797852],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_decffaaf26324261bbcc4448e4ed921d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d12a2de8da6491c8ce64242f965142c = $(`<div id="html_0d12a2de8da6491c8ce64242f965142c" style="width: 100.0%; height: 100.0%;">曲靖市:1005.5</div>`)[0];
+            popup_decffaaf26324261bbcc4448e4ed921d.setContent(html_0d12a2de8da6491c8ce64242f965142c);
+        
+
+        regular_polygon_marker_942ca3a8854045a2aeafb4134c2bdc97.bindPopup(popup_decffaaf26324261bbcc4448e4ed921d)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_dd26a7d0b1b8448f92c4d9dc3663833d = new L.RegularPolygonMarker(
+                [21.659752, 110.919228],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_133b7692cc344bc6aca4cc7c3c0252a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d91c1ca77c446cfad9bead89e952073 = $(`<div id="html_4d91c1ca77c446cfad9bead89e952073" style="width: 100.0%; height: 100.0%;">茂名市:1492.09</div>`)[0];
+            popup_133b7692cc344bc6aca4cc7c3c0252a5.setContent(html_4d91c1ca77c446cfad9bead89e952073);
+        
+
+        regular_polygon_marker_dd26a7d0b1b8448f92c4d9dc3663833d.bindPopup(popup_133b7692cc344bc6aca4cc7c3c0252a5)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_33b25460e9194ab0a68e7562ae5d38b0 = new L.RegularPolygonMarker(
+                [36.456013, 115.98037],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_34349f00b5f645c886bdf9b7740f8aa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f22843f0eb334d3aa022664a0b7f9373 = $(`<div id="html_f22843f0eb334d3aa022664a0b7f9373" style="width: 100.0%; height: 100.0%;">聊城市:1606.51</div>`)[0];
+            popup_34349f00b5f645c886bdf9b7740f8aa6.setContent(html_f22843f0eb334d3aa022664a0b7f9373);
+        
+
+        regular_polygon_marker_33b25460e9194ab0a68e7562ae5d38b0.bindPopup(popup_34349f00b5f645c886bdf9b7740f8aa6)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_477f60c5244044dbbf002d7de9d62075 = new L.RegularPolygonMarker(
+                [29.040224, 111.691345],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_603bf8eb2fc54cf4a35f61e9054c539f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ad3c90880ae4faabca5d2f0edf292aa = $(`<div id="html_1ad3c90880ae4faabca5d2f0edf292aa" style="width: 100.0%; height: 100.0%;">常德市:1491.6</div>`)[0];
+            popup_603bf8eb2fc54cf4a35f61e9054c539f.setContent(html_1ad3c90880ae4faabca5d2f0edf292aa);
+        
+
+        regular_polygon_marker_477f60c5244044dbbf002d7de9d62075.bindPopup(popup_603bf8eb2fc54cf4a35f61e9054c539f)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_6f790565ac854fa693761ccf79078d87 = new L.RegularPolygonMarker(
+                [35.302616, 113.883987],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_f278adb73bb54131ab78c13bb783ede4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78777dcf5d114109bb5d5def2dca3c59 = $(`<div id="html_78777dcf5d114109bb5d5def2dca3c59" style="width: 100.0%; height: 100.0%;">新乡市:1181.45</div>`)[0];
+            popup_f278adb73bb54131ab78c13bb783ede4.setContent(html_78777dcf5d114109bb5d5def2dca3c59);
+        
+
+        regular_polygon_marker_6f790565ac854fa693761ccf79078d87.bindPopup(popup_f278adb73bb54131ab78c13bb783ede4)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_5f4cdb73d4cf402f894d5f1ab6965ec0 = new L.RegularPolygonMarker(
+                [31.861191, 117.283043],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_f7af4dbd37364915a0d5e15b12e82420 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f52740a116f48e1bd17ba9fbeaeb4be = $(`<div id="html_3f52740a116f48e1bd17ba9fbeaeb4be" style="width: 100.0%; height: 100.0%;">合肥市:2702.5</div>`)[0];
+            popup_f7af4dbd37364915a0d5e15b12e82420.setContent(html_3f52740a116f48e1bd17ba9fbeaeb4be);
+        
+
+        regular_polygon_marker_5f4cdb73d4cf402f894d5f1ab6965ec0.bindPopup(popup_f7af4dbd37364915a0d5e15b12e82420)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_f69f3dae8e8d4103874eaf25026a4902 = new L.RegularPolygonMarker(
+                [30.326857, 112.238129],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_79a109e34a934c95a567195bb5bff00f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82a2c96c8e534772818cdd1c5d2f292f = $(`<div id="html_82a2c96c8e534772818cdd1c5d2f292f" style="width: 100.0%; height: 100.0%;">荆州市:837.1</div>`)[0];
+            popup_79a109e34a934c95a567195bb5bff00f.setContent(html_82a2c96c8e534772818cdd1c5d2f292f);
+        
+
+        regular_polygon_marker_f69f3dae8e8d4103874eaf25026a4902.bindPopup(popup_79a109e34a934c95a567195bb5bff00f)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_ac153f90bd9a489ba349f6dc701a7cfd = new L.RegularPolygonMarker(
+                [31.75289, 116.507675],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_17ba4c98324141da9b37075c9e244ece = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6538697eeda446191093ae5d4d1ccbf = $(`<div id="html_d6538697eeda446191093ae5d4d1ccbf" style="width: 100.0%; height: 100.0%;">六安市:676.1</div>`)[0];
+            popup_17ba4c98324141da9b37075c9e244ece.setContent(html_d6538697eeda446191093ae5d4d1ccbf);
+        
+
+        regular_polygon_marker_ac153f90bd9a489ba349f6dc701a7cfd.bindPopup(popup_17ba4c98324141da9b37075c9e244ece)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_d1c5251aa9e444bc9a7ecc70c501206c = new L.RegularPolygonMarker(
+                [37.453968, 116.307426],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_917c1755881d4ac9803b55170bccd3ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e67ced3892d046ceb8c84181d79b48b9 = $(`<div id="html_e67ced3892d046ceb8c84181d79b48b9" style="width: 100.0%; height: 100.0%;">德州市:1657.82</div>`)[0];
+            popup_917c1755881d4ac9803b55170bccd3ee.setContent(html_e67ced3892d046ceb8c84181d79b48b9);
+        
+
+        regular_polygon_marker_d1c5251aa9e444bc9a7ecc70c501206c.bindPopup(popup_917c1755881d4ac9803b55170bccd3ee)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_0c9af448060b4ea49e2cc6e2641a0a92 = new L.RegularPolygonMarker(
+                [32.042427, 112.14415],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_09bb13f7dcf0474ca93bab28756257be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86bedbb6fe0747a182144a8a0eaf1ec4 = $(`<div id="html_86bedbb6fe0747a182144a8a0eaf1ec4" style="width: 100.0%; height: 100.0%;">襄阳市:1538.3</div>`)[0];
+            popup_09bb13f7dcf0474ca93bab28756257be.setContent(html_86bedbb6fe0747a182144a8a0eaf1ec4);
+        
+
+        regular_polygon_marker_0c9af448060b4ea49e2cc6e2641a0a92.bindPopup(popup_09bb13f7dcf0474ca93bab28756257be)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_dc2dd0613f8445a2893bcd1a7b170ab5 = new L.RegularPolygonMarker(
+                [36.194969, 117.129066],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_7dfce7f00a73410bbddf3c0b724e6640 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d241ab6beee4cc8ba141f8466914fb0 = $(`<div id="html_8d241ab6beee4cc8ba141f8466914fb0" style="width: 100.0%; height: 100.0%;">泰安市:2051.7</div>`)[0];
+            popup_7dfce7f00a73410bbddf3c0b724e6640.setContent(html_8d241ab6beee4cc8ba141f8466914fb0);
+        
+
+        regular_polygon_marker_dc2dd0613f8445a2893bcd1a7b170ab5.bindPopup(popup_7dfce7f00a73410bbddf3c0b724e6640)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_e402ae90bad04dc480d6810ee07dd74a = new L.RegularPolygonMarker(
+                [22.631359, 110.154396],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_3ae709d5c3984ed6b1d01ebcb3fc2aa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb03bba67024476a9aa509ed3a52afa6 = $(`<div id="html_fb03bba67024476a9aa509ed3a52afa6" style="width: 100.0%; height: 100.0%;">玉林市:835.82</div>`)[0];
+            popup_3ae709d5c3984ed6b1d01ebcb3fc2aa8.setContent(html_fb03bba67024476a9aa509ed3a52afa6);
+        
+
+        regular_polygon_marker_e402ae90bad04dc480d6810ee07dd74a.bindPopup(popup_3ae709d5c3984ed6b1d01ebcb3fc2aa8)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_e15b63714e4c47fa86b256fd3056727e = new L.RegularPolygonMarker(
+                [29.370291, 113.132858],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_e9f9ffaf824e47998f3da85a7ff49b42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e87d80e87e0c411c899f7edc9db213ba = $(`<div id="html_e87d80e87e0c411c899f7edc9db213ba" style="width: 100.0%; height: 100.0%;">岳阳市:1539.36</div>`)[0];
+            popup_e9f9ffaf824e47998f3da85a7ff49b42.setContent(html_e87d80e87e0c411c899f7edc9db213ba);
+        
+
+        regular_polygon_marker_e15b63714e4c47fa86b256fd3056727e.bindPopup(popup_e9f9ffaf824e47998f3da85a7ff49b42)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_a711c217ff534c8b820a2107b78fcfe8 = new L.RegularPolygonMarker(
+                [31.209484, 107.502258],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_50311cd58f944e20a78b5de55bbd2e17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e5c0e3d68594b6fabe3dac4e74af54a = $(`<div id="html_8e5c0e3d68594b6fabe3dac4e74af54a" style="width: 100.0%; height: 100.0%;">达州市:819.2</div>`)[0];
+            popup_50311cd58f944e20a78b5de55bbd2e17.setContent(html_8e5c0e3d68594b6fabe3dac4e74af54a);
+        
+
+        regular_polygon_marker_a711c217ff534c8b820a2107b78fcfe8.bindPopup(popup_50311cd58f944e20a78b5de55bbd2e17)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_eb04329e27834b788dbee20e8b784385 = new L.RegularPolygonMarker(
+                [27.8043, 114.391136],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_62ba5271bc884061be5b83cead85475d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73cbcd0b0c89426598ab6311989aec0f = $(`<div id="html_73cbcd0b0c89426598ab6311989aec0f" style="width: 100.0%; height: 100.0%;">宜春市:870.0</div>`)[0];
+            popup_62ba5271bc884061be5b83cead85475d.setContent(html_73cbcd0b0c89426598ab6311989aec0f);
+        
+
+        regular_polygon_marker_eb04329e27834b788dbee20e8b784385.bindPopup(popup_62ba5271bc884061be5b83cead85475d)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_dc2e7cc6dfaf43d98d1c210838620efb = new L.RegularPolygonMarker(
+                [46.637394, 126.992928],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_c547c57844d24b199db182ca054daa45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e53d3fcd098248cfa3dc4e3bfe775d32 = $(`<div id="html_e53d3fcd098248cfa3dc4e3bfe775d32" style="width: 100.0%; height: 100.0%;">绥化市:733.4</div>`)[0];
+            popup_c547c57844d24b199db182ca054daa45.setContent(html_e53d3fcd098248cfa3dc4e3bfe775d32);
+        
+
+        regular_polygon_marker_dc2e7cc6dfaf43d98d1c210838620efb.bindPopup(popup_c547c57844d24b199db182ca054daa45)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_d30e9ed4a8e94583bbf890410ae846ea = new L.RegularPolygonMarker(
+                [23.371019, 116.708466],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_bb07059a754545b8b748f15a90f92a75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afec15ed2bf6468ba8c9e36b16382465 = $(`<div id="html_afec15ed2bf6468ba8c9e36b16382465" style="width: 100.0%; height: 100.0%;">汕头市:1203.25</div>`)[0];
+            popup_bb07059a754545b8b748f15a90f92a75.setContent(html_afec15ed2bf6468ba8c9e36b16382465);
+        
+
+        regular_polygon_marker_d30e9ed4a8e94583bbf890410ae846ea.bindPopup(popup_bb07059a754545b8b748f15a90f92a75)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_d4e5dac27f52472caeb67ada8bfdf282 = new L.RegularPolygonMarker(
+                [47.342079, 123.957916],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_b871af29bae3435fb7ff7feaf3e770cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42cc434f680d419b806632ad52c21cb4 = $(`<div id="html_42cc434f680d419b806632ad52c21cb4" style="width: 100.0%; height: 100.0%;">齐齐哈尔市:852.6</div>`)[0];
+            popup_b871af29bae3435fb7ff7feaf3e770cf.setContent(html_42cc434f680d419b806632ad52c21cb4);
+        
+
+        regular_polygon_marker_d4e5dac27f52472caeb67ada8bfdf282.bindPopup(popup_b871af29bae3435fb7ff7feaf3e770cf)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_e92b4bc5b3b0477683fd676312d65cb4 = new L.RegularPolygonMarker(
+                [29.089523, 119.649506],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_1fa68e94f5ae4dbe988b7794da01e605 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1bafcea9bdd40e794eae26acf251c6f = $(`<div id="html_c1bafcea9bdd40e794eae26acf251c6f" style="width: 100.0%; height: 100.0%;">金华市:2094.7</div>`)[0];
+            popup_1fa68e94f5ae4dbe988b7794da01e605.setContent(html_c1bafcea9bdd40e794eae26acf251c6f);
+        
+
+        regular_polygon_marker_e92b4bc5b3b0477683fd676312d65cb4.bindPopup(popup_1fa68e94f5ae4dbe988b7794da01e605)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_6ae0650d7a5e4a0fb08b61bd4a22b8cf = new L.RegularPolygonMarker(
+                [33.633892, 116.984085],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_fd534da701054f6ebc9c70cc0c32e6d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba1cde7d3df74f85afe1c0e216dc5825 = $(`<div id="html_ba1cde7d3df74f85afe1c0e216dc5825" style="width: 100.0%; height: 100.0%;">宿州市:650.3</div>`)[0];
+            popup_fd534da701054f6ebc9c70cc0c32e6d2.setContent(html_ba1cde7d3df74f85afe1c0e216dc5825);
+        
+
+        regular_polygon_marker_6ae0650d7a5e4a0fb08b61bd4a22b8cf.bindPopup(popup_fd534da701054f6ebc9c70cc0c32e6d2)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_730b0a07f5a746cda28546d6d18545d4 = new L.RegularPolygonMarker(
+                [30.508829, 117.043549],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_47317343c5a94f9a947727c6a97466dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4591c3d4299e463fae8fb96897ee1b1b = $(`<div id="html_4591c3d4299e463fae8fb96897ee1b1b" style="width: 100.0%; height: 100.0%;">安庆市:988.11</div>`)[0];
+            popup_47317343c5a94f9a947727c6a97466dc.setContent(html_4591c3d4299e463fae8fb96897ee1b1b);
+        
+
+        regular_polygon_marker_730b0a07f5a746cda28546d6d18545d4.bindPopup(popup_47317343c5a94f9a947727c6a97466dc)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_832336799d664f8586b4ca4b747bc1bd = new L.RegularPolygonMarker(
+                [34.499382, 109.502884],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_8fca82a3a6e5469dabcf1a0af7e88307 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47bdff74b8bf4e6ab1a594c7cd525a3a = $(`<div id="html_47bdff74b8bf4e6ab1a594c7cd525a3a" style="width: 100.0%; height: 100.0%;">渭南市:801.42</div>`)[0];
+            popup_8fca82a3a6e5469dabcf1a0af7e88307.setContent(html_47bdff74b8bf4e6ab1a594c7cd525a3a);
+        
+
+        regular_polygon_marker_832336799d664f8586b4ca4b747bc1bd.bindPopup(popup_8fca82a3a6e5469dabcf1a0af7e88307)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_912d8af932014b23ace58a7eedeb65a8 = new L.RegularPolygonMarker(
+                [27.337, 103.717216],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_f946779b9a6e40e28c28673eebb20952 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd4227836214424b9b9f7c7f035725c6 = $(`<div id="html_fd4227836214424b9b9f7c7f035725c6" style="width: 100.0%; height: 100.0%;">昭通市:379.62</div>`)[0];
+            popup_f946779b9a6e40e28c28673eebb20952.setContent(html_fd4227836214424b9b9f7c7f035725c6);
+        
+
+        regular_polygon_marker_912d8af932014b23ace58a7eedeb65a8.bindPopup(popup_f946779b9a6e40e28c28673eebb20952)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_7c7a488d06584b3ebbfb156942ce37f3 = new L.RegularPolygonMarker(
+                [26.434517, 111.608017],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_a728050f79654f739588d55a7cf80d70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d60d70a14a244152a72ea289291d8961 = $(`<div id="html_d60d70a14a244152a72ea289291d8961" style="width: 100.0%; height: 100.0%;">永州市:767.01</div>`)[0];
+            popup_a728050f79654f739588d55a7cf80d70.setContent(html_d60d70a14a244152a72ea289291d8961);
+        
+
+        regular_polygon_marker_7c7a488d06584b3ebbfb156942ce37f3.bindPopup(popup_a728050f79654f739588d55a7cf80d70)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_0cefb6ac6bdc45099f2e9f477d17d8e1 = new L.RegularPolygonMarker(
+                [36.103443, 114.352486],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_8b0c35873168400f94a10cd61e0a0239 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e80ba0afdff04421a281eb29deafd38b = $(`<div id="html_e80ba0afdff04421a281eb29deafd38b" style="width: 100.0%; height: 100.0%;">安阳市:1311.3</div>`)[0];
+            popup_8b0c35873168400f94a10cd61e0a0239.setContent(html_e80ba0afdff04421a281eb29deafd38b);
+        
+
+        regular_polygon_marker_0cefb6ac6bdc45099f2e9f477d17d8e1.bindPopup(popup_8b0c35873168400f94a10cd61e0a0239)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_7bb22ba926134db4b3e3010452d7dc35 = new L.RegularPolygonMarker(
+                [35.022778, 111.00396],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_600fd5cfc5ac41e68efd4ed68b8de14e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_711fe24d0bf44faa93bbffec31cdf242 = $(`<div id="html_711fe24d0bf44faa93bbffec31cdf242" style="width: 100.0%; height: 100.0%;">运城市:827.0</div>`)[0];
+            popup_600fd5cfc5ac41e68efd4ed68b8de14e.setContent(html_711fe24d0bf44faa93bbffec31cdf242);
+        
+
+        regular_polygon_marker_7bb22ba926134db4b3e3010452d7dc35.bindPopup(popup_600fd5cfc5ac41e68efd4ed68b8de14e)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_939aafd661d846edbca91f177004108e = new L.RegularPolygonMarker(
+                [28.676493, 115.892151],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_53d709dd54ff48898a1fe180a5bcffd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0df79526cc4241ecbe840e7d787b8814 = $(`<div id="html_0df79526cc4241ecbe840e7d787b8814" style="width: 100.0%; height: 100.0%;">南昌市:2207.11</div>`)[0];
+            popup_53d709dd54ff48898a1fe180a5bcffd8.setContent(html_0df79526cc4241ecbe840e7d787b8814);
+        
+
+        regular_polygon_marker_939aafd661d846edbca91f177004108e.bindPopup(popup_53d709dd54ff48898a1fe180a5bcffd8)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_a090051368944913bc51afa1acf3664d = new L.RegularPolygonMarker(
+                [29.997116, 120.582115],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_8be5ee85e3da446a9cdb03dc5149a9ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc2c3e1a4a434d198f57e9554eda34a8 = $(`<div id="html_dc2c3e1a4a434d198f57e9554eda34a8" style="width: 100.0%; height: 100.0%;">绍兴市:2782.74</div>`)[0];
+            popup_8be5ee85e3da446a9cdb03dc5149a9ba.setContent(html_dc2c3e1a4a434d198f57e9554eda34a8);
+        
+
+        regular_polygon_marker_a090051368944913bc51afa1acf3664d.bindPopup(popup_8be5ee85e3da446a9cdb03dc5149a9ba)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_3141d6e7d8584797ad4dafdea7e6aea2 = new L.RegularPolygonMarker(
+                [33.735241, 113.307716],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_9d81ff10fd2e43e08f15d89724913949 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ad6f21e1f7541d491cfeb01125494a4 = $(`<div id="html_6ad6f21e1f7541d491cfeb01125494a4" style="width: 100.0%; height: 100.0%;">平顶山市:1312.1</div>`)[0];
+            popup_9d81ff10fd2e43e08f15d89724913949.setContent(html_6ad6f21e1f7541d491cfeb01125494a4);
+        
+
+        regular_polygon_marker_3141d6e7d8584797ad4dafdea7e6aea2.bindPopup(popup_9d81ff10fd2e43e08f15d89724913949)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_58b69565ad4244729459e09cf6c8cb8c = new L.RegularPolygonMarker(
+                [34.333439, 108.705116],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_635dc81352d24797a1a82a72ca35e5b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45dce05e401a47c7b5b3a2c50c2ea896 = $(`<div id="html_45dce05e401a47c7b5b3a2c50c2ea896" style="width: 100.0%; height: 100.0%;">咸阳市:1098.7</div>`)[0];
+            popup_635dc81352d24797a1a82a72ca35e5b0.setContent(html_45dce05e401a47c7b5b3a2c50c2ea896);
+        
+
+        regular_polygon_marker_58b69565ad4244729459e09cf6c8cb8c.bindPopup(popup_635dc81352d24797a1a82a72ca35e5b0)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_4906a5b084184b2ab44c84f837571c82 = new L.RegularPolygonMarker(
+                [30.926422, 113.926659],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_ba8ae5f00d2041e0815d80f7f3af8d4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a942d9d316a41738686d6a88885d92c = $(`<div id="html_2a942d9d316a41738686d6a88885d92c" style="width: 100.0%; height: 100.0%;">孝感市:800.67</div>`)[0];
+            popup_ba8ae5f00d2041e0815d80f7f3af8d4b.setContent(html_2a942d9d316a41738686d6a88885d92c);
+        
+
+        regular_polygon_marker_4906a5b084184b2ab44c84f837571c82.bindPopup(popup_ba8ae5f00d2041e0815d80f7f3af8d4b)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_ebf6674532ab4ba09d4481f6d87df3e7 = new L.RegularPolygonMarker(
+                [27.111698, 114.986374],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_4465e74faf8c4dfd8fd3468115fa42b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d24501d6a5b493da8950697d4079855 = $(`<div id="html_2d24501d6a5b493da8950697d4079855" style="width: 100.0%; height: 100.0%;">吉安市:720.53</div>`)[0];
+            popup_4465e74faf8c4dfd8fd3468115fa42b5.setContent(html_2d24501d6a5b493da8950697d4079855);
+        
+
+        regular_polygon_marker_ebf6674532ab4ba09d4481f6d87df3e7.bindPopup(popup_4465e74faf8c4dfd8fd3468115fa42b5)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_4e3a84338c3941dba0b3516548fe190e = new L.RegularPolygonMarker(
+                [24.510897, 117.661804],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_23283c7e9d16430da67d3f84d656b0ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b98e971859344055b1379d13ba4dc641 = $(`<div id="html_b98e971859344055b1379d13ba4dc641" style="width: 100.0%; height: 100.0%;">漳州市:1400.71</div>`)[0];
+            popup_23283c7e9d16430da67d3f84d656b0ef.setContent(html_b98e971859344055b1379d13ba4dc641);
+        
+
+        regular_polygon_marker_4e3a84338c3941dba0b3516548fe190e.bindPopup(popup_23283c7e9d16430da67d3f84d656b0ef)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_5e91c4434bbb4811a0759bcdea9f2ccb = new L.RegularPolygonMarker(
+                [33.597507, 119.021263],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_a81eab74239f4e00b4674191740bc1a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b06e1071076427e9a07950be9dfd70e = $(`<div id="html_0b06e1071076427e9a07950be9dfd70e" style="width: 100.0%; height: 100.0%;">淮安市:1345.07</div>`)[0];
+            popup_a81eab74239f4e00b4674191740bc1a6.setContent(html_0b06e1071076427e9a07950be9dfd70e);
+        
+
+        regular_polygon_marker_5e91c4434bbb4811a0759bcdea9f2ccb.bindPopup(popup_a81eab74239f4e00b4674191740bc1a6)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_5ec035494ae04933ac81767f98e0850d = new L.RegularPolygonMarker(
+                [25.274216, 110.299118],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_281ba06a1531480baf2f4bfcf1d7bb1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cd2049cfade4a05952cd70668305dbd = $(`<div id="html_2cd2049cfade4a05952cd70668305dbd" style="width: 100.0%; height: 100.0%;">桂林市:1108.63</div>`)[0];
+            popup_281ba06a1531480baf2f4bfcf1d7bb1a.setContent(html_2cd2049cfade4a05952cd70668305dbd);
+        
+
+        regular_polygon_marker_5ec035494ae04933ac81767f98e0850d.bindPopup(popup_281ba06a1531480baf2f4bfcf1d7bb1a)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_7165da0984744e50ac3b9b2bd3565109 = new L.RegularPolygonMarker(
+                [27.550081, 109.978241],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_d461d5a97001456997d2be7b3efa32b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f66132fac6e14821a6e1e63a9cb7085d = $(`<div id="html_f66132fac6e14821a6e1e63a9cb7085d" style="width: 100.0%; height: 100.0%;">怀化市:674.92</div>`)[0];
+            popup_d461d5a97001456997d2be7b3efa32b6.setContent(html_f66132fac6e14821a6e1e63a9cb7085d);
+        
+
+        regular_polygon_marker_7165da0984744e50ac3b9b2bd3565109.bindPopup(popup_d461d5a97001456997d2be7b3efa32b6)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_60744c29a41d4dc6ac00406cce28cbac = new L.RegularPolygonMarker(
+                [29.712034, 115.992813],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_797f17774b234618bac5a4bf74c4e15a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6143ff8576b441fdae9f089ecf652500 = $(`<div id="html_6143ff8576b441fdae9f089ecf652500" style="width: 100.0%; height: 100.0%;">九江市:1032.06</div>`)[0];
+            popup_797f17774b234618bac5a4bf74c4e15a.setContent(html_6143ff8576b441fdae9f089ecf652500);
+        
+
+        regular_polygon_marker_60744c29a41d4dc6ac00406cce28cbac.bindPopup(popup_797f17774b234618bac5a4bf74c4e15a)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_875460c3a70e4e0291981494aed7470a = new L.RegularPolygonMarker(
+                [33.963009, 118.275162],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_741a5a8099bd4508b67581e9f151a434 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e712466cb89545f78de28dde25228bb9 = $(`<div id="html_e712466cb89545f78de28dde25228bb9" style="width: 100.0%; height: 100.0%;">宿迁市:1015.21</div>`)[0];
+            popup_741a5a8099bd4508b67581e9f151a434.setContent(html_e712466cb89545f78de28dde25228bb9);
+        
+
+        regular_polygon_marker_875460c3a70e4e0291981494aed7470a.bindPopup(popup_741a5a8099bd4508b67581e9f151a434)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_28535ad60f5c480daf1bbc930a93f491 = new L.RegularPolygonMarker(
+                [34.79705, 114.341446],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_255217fad8e040f39d2c6aea2b29a853 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a17c38f082e24db5b9da1f885eee35d9 = $(`<div id="html_a17c38f082e24db5b9da1f885eee35d9" style="width: 100.0%; height: 100.0%;">开封市:930.22</div>`)[0];
+            popup_255217fad8e040f39d2c6aea2b29a853.setContent(html_a17c38f082e24db5b9da1f885eee35d9);
+        
+
+        regular_polygon_marker_28535ad60f5c480daf1bbc930a93f491.bindPopup(popup_255217fad8e040f39d2c6aea2b29a853)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_8901883457ba41dabe778fe14ce2453f = new L.RegularPolygonMarker(
+                [32.484882, 119.915176],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_fd49f37ca9194f8ba89a5c0797402a6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_506f0981d43749c099e4cb574dac99cf = $(`<div id="html_506f0981d43749c099e4cb574dac99cf" style="width: 100.0%; height: 100.0%;">泰州市:2002.58</div>`)[0];
+            popup_fd49f37ca9194f8ba89a5c0797402a6c.setContent(html_506f0981d43749c099e4cb574dac99cf);
+        
+
+        regular_polygon_marker_8901883457ba41dabe778fe14ce2453f.bindPopup(popup_fd49f37ca9194f8ba89a5c0797402a6c)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_907e5034878b45da99ee7e73727385e8 = new L.RegularPolygonMarker(
+                [31.46402, 104.741722],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_4560b2993b034700ba77d454c66b805a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c56244bf94634c59897d105dd4084c6d = $(`<div id="html_c56244bf94634c59897d105dd4084c6d" style="width: 100.0%; height: 100.0%;">绵阳市:960.2</div>`)[0];
+            popup_4560b2993b034700ba77d454c66b805a.setContent(html_c56244bf94634c59897d105dd4084c6d);
+        
+
+        regular_polygon_marker_907e5034878b45da99ee7e73727385e8.bindPopup(popup_4560b2993b034700ba77d454c66b805a)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_ad4fbac21a434dd5ad2226376dea504d = new L.RegularPolygonMarker(
+                [23.079405, 114.412598],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_6104819c479f428887fa07cdca14a652 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f985ca886964770990fc2ab41b6e7cb = $(`<div id="html_4f985ca886964770990fc2ab41b6e7cb" style="width: 100.0%; height: 100.0%;">惠州市:1729.9</div>`)[0];
+            popup_6104819c479f428887fa07cdca14a652.setContent(html_4f985ca886964770990fc2ab41b6e7cb);
+        
+
+        regular_polygon_marker_ad4fbac21a434dd5ad2226376dea504d.bindPopup(popup_6104819c479f428887fa07cdca14a652)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_9a0d69ef00f74cb09fc73c89c914c8bf = new L.RegularPolygonMarker(
+                [31.772753, 119.946976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_95a36d84bca44e1b8e3f8000a6ccec39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a24cdb069dc040c8a41af80595ed5c69 = $(`<div id="html_a24cdb069dc040c8a41af80595ed5c69" style="width: 100.0%; height: 100.0%;">常州市:2976.7</div>`)[0];
+            popup_95a36d84bca44e1b8e3f8000a6ccec39.setContent(html_a24cdb069dc040c8a41af80595ed5c69);
+        
+
+        regular_polygon_marker_9a0d69ef00f74cb09fc73c89c914c8bf.bindPopup(popup_95a36d84bca44e1b8e3f8000a6ccec39)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_381c118469c74afa9647f45f842bdcf0 = new L.RegularPolygonMarker(
+                [25.793589, 113.032066],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_43ae7df4b46d4fd5a1a6302616f205c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe40dcfdcef94e0dabf0ce96c64ff7eb = $(`<div id="html_fe40dcfdcef94e0dabf0ce96c64ff7eb" style="width: 100.0%; height: 100.0%;">郴州市:1081.8</div>`)[0];
+            popup_43ae7df4b46d4fd5a1a6302616f205c1.setContent(html_fe40dcfdcef94e0dabf0ce96c64ff7eb);
+        
+
+        regular_polygon_marker_381c118469c74afa9647f45f842bdcf0.bindPopup(popup_43ae7df4b46d4fd5a1a6302616f205c1)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_f10c5fb1a3ff4f18983b4d524b73ec5a = new L.RegularPolygonMarker(
+                [27.886763, 102.258743],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_3b8299ef2b2e4403a333f6903896a7d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c2b9cdce19c48a39707c8e8d598d8c1 = $(`<div id="html_2c2b9cdce19c48a39707c8e8d598d8c1" style="width: 100.0%; height: 100.0%;">凉山州:784.19</div>`)[0];
+            popup_3b8299ef2b2e4403a333f6903896a7d5.setContent(html_2c2b9cdce19c48a39707c8e8d598d8c1);
+        
+
+        regular_polygon_marker_f10c5fb1a3ff4f18983b4d524b73ec5a.bindPopup(popup_3b8299ef2b2e4403a333f6903896a7d5)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_840a1911b71f4c429e6161cb88ec81f3 = new L.RegularPolygonMarker(
+                [36.814938, 118.047646],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_652126c59f3d46899db102d41207d1ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23f28fe06e914ea2905346d7edeb77d1 = $(`<div id="html_23f28fe06e914ea2905346d7edeb77d1" style="width: 100.0%; height: 100.0%;">淄博市:2866.75</div>`)[0];
+            popup_652126c59f3d46899db102d41207d1ad.setContent(html_23f28fe06e914ea2905346d7edeb77d1);
+        
+
+        regular_polygon_marker_840a1911b71f4c429e6161cb88ec81f3.bindPopup(popup_652126c59f3d46899db102d41207d1ad)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_062098a9fbd6432e9940311ab77c0f0c = new L.RegularPolygonMarker(
+                [30.762653, 120.750862],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_f940976cf5db4970826d8a67372a4d92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8720abc7853d44649f70359da5d97b8b = $(`<div id="html_8720abc7853d44649f70359da5d97b8b" style="width: 100.0%; height: 100.0%;">嘉兴市:2296.0</div>`)[0];
+            popup_f940976cf5db4970826d8a67372a4d92.setContent(html_8720abc7853d44649f70359da5d97b8b);
+        
+
+        regular_polygon_marker_062098a9fbd6432e9940311ab77c0f0c.bindPopup(popup_f940976cf5db4970826d8a67372a4d92)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_6477d00775fb4d3297e936c35808e15e = new L.RegularPolygonMarker(
+                [23.366776, 103.384186],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_5c8518025f744b658457d7665979965f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80f5fd5dc8534542a938296e9cf3c6f7 = $(`<div id="html_80f5fd5dc8534542a938296e9cf3c6f7" style="width: 100.0%; height: 100.0%;">红河州:650.42</div>`)[0];
+            popup_5c8518025f744b658457d7665979965f.setContent(html_80f5fd5dc8534542a938296e9cf3c6f7);
+        
+
+        regular_polygon_marker_6477d00775fb4d3297e936c35808e15e.bindPopup(popup_5c8518025f744b658457d7665979965f)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_7242cc9571874d61be25b09b2a5a4d9f = new L.RegularPolygonMarker(
+                [28.760189, 104.630821],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_13d6c306616648ecad64f4fb2241ba39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24e484920f6844caaba8e9b7f073eecd = $(`<div id="html_24e484920f6844caaba8e9b7f073eecd" style="width: 100.0%; height: 100.0%;">宜宾市:870.85</div>`)[0];
+            popup_13d6c306616648ecad64f4fb2241ba39.setContent(html_24e484920f6844caaba8e9b7f073eecd);
+        
+
+        regular_polygon_marker_7242cc9571874d61be25b09b2a5a4d9f.bindPopup(popup_13d6c306616648ecad64f4fb2241ba39)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_441e6311c6d342119acec0b6eb88dfb4 = new L.RegularPolygonMarker(
+                [32.393158, 119.421005],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_0eabfb52910e47baa37024e38b680e44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18a3713afac442cb8bd7e86c02095a81 = $(`<div id="html_18a3713afac442cb8bd7e86c02095a81" style="width: 100.0%; height: 100.0%;">扬州市:2207.99</div>`)[0];
+            popup_0eabfb52910e47baa37024e38b680e44.setContent(html_18a3713afac442cb8bd7e86c02095a81);
+        
+
+        regular_polygon_marker_441e6311c6d342119acec0b6eb88dfb4.bindPopup(popup_0eabfb52910e47baa37024e38b680e44)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_6883d285b02e4a1189d44ead1e2f1989 = new L.RegularPolygonMarker(
+                [22.590431, 113.09494],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_4b968afd272d4e63b70513d5d72d4e47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfc293f561744090afa941448494cbf6 = $(`<div id="html_bfc293f561744090afa941448494cbf6" style="width: 100.0%; height: 100.0%;">江门市:1550.37</div>`)[0];
+            popup_4b968afd272d4e63b70513d5d72d4e47.setContent(html_bfc293f561744090afa941448494cbf6);
+        
+
+        regular_polygon_marker_6883d285b02e4a1189d44ead1e2f1989.bindPopup(popup_4b968afd272d4e63b70513d5d72d4e47)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_46c885e0c07a4b868f8f951da7256e42 = new L.RegularPolygonMarker(
+                [43.843578, 126.553017],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_04dd937a09334c669680e204dd8b3057 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60112c7ccd9047ebb4ddf8ea0aeb6028 = $(`<div id="html_60112c7ccd9047ebb4ddf8ea0aeb6028" style="width: 100.0%; height: 100.0%;">吉林市:1800.6</div>`)[0];
+            popup_04dd937a09334c669680e204dd8b3057.setContent(html_60112c7ccd9047ebb4ddf8ea0aeb6028);
+        
+
+        regular_polygon_marker_46c885e0c07a4b868f8f951da7256e42.bindPopup(popup_04dd937a09334c669680e204dd8b3057)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_3ef031dccbfb46768ee250bc8b02ab57 = new L.RegularPolygonMarker(
+                [34.600018, 119.178818],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_d93ba0cf80c149b89743b1af56a83c27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4ee85e5bf304a34939a4ecbb90c4a56 = $(`<div id="html_c4ee85e5bf304a34939a4ecbb90c4a56" style="width: 100.0%; height: 100.0%;">连云港市:1150.81</div>`)[0];
+            popup_d93ba0cf80c149b89743b1af56a83c27.setContent(html_c4ee85e5bf304a34939a4ecbb90c4a56);
+        
+
+        regular_polygon_marker_3ef031dccbfb46768ee250bc8b02ab57.bindPopup(popup_d93ba0cf80c149b89743b1af56a83c27)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_bebaf23ff2f649898457b23740dd5cbf = new L.RegularPolygonMarker(
+                [39.523926, 116.704437],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_703c5c2fa3bc494398a6d876f2d095f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88027151d2b946d0ba0de0dfbc99f07d = $(`<div id="html_88027151d2b946d0ba0de0dfbc99f07d" style="width: 100.0%; height: 100.0%;">廊坊市:1331.1</div>`)[0];
+            popup_703c5c2fa3bc494398a6d876f2d095f8.setContent(html_88027151d2b946d0ba0de0dfbc99f07d);
+        
+
+        regular_polygon_marker_bebaf23ff2f649898457b23740dd5cbf.bindPopup(popup_703c5c2fa3bc494398a6d876f2d095f8)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_334c708aa7d547189b5fbeeee63edea5 = new L.RegularPolygonMarker(
+                [40.811901, 114.884094],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_a0f085aa18934bdbb1f8fbe09c1d9e9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_341c81754a5542719d98cc493d0e9f69 = $(`<div id="html_341c81754a5542719d98cc493d0e9f69" style="width: 100.0%; height: 100.0%;">张家口市:966.12</div>`)[0];
+            popup_a0f085aa18934bdbb1f8fbe09c1d9e9f.setContent(html_341c81754a5542719d98cc493d0e9f69);
+        
+
+        regular_polygon_marker_334c708aa7d547189b5fbeeee63edea5.bindPopup(popup_a0f085aa18934bdbb1f8fbe09c1d9e9f)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_7ca8affcd9e14dd48736cd92de8d9aa0 = new L.RegularPolygonMarker(
+                [42.275318, 118.956802],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_9f8b071f1c7941dda93f085c681e6aa5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f5c4fd3001048c5b44ed4aedcebf56e = $(`<div id="html_8f5c4fd3001048c5b44ed4aedcebf56e" style="width: 100.0%; height: 100.0%;">赤峰市:1080.18</div>`)[0];
+            popup_9f8b071f1c7941dda93f085c681e6aa5.setContent(html_8f5c4fd3001048c5b44ed4aedcebf56e);
+        
+
+        regular_polygon_marker_7ca8affcd9e14dd48736cd92de8d9aa0.bindPopup(popup_9f8b071f1c7941dda93f085c681e6aa5)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_2485347371a241c99661b2a98599adb7 = new L.RegularPolygonMarker(
+                [37.735096, 115.665993],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_cf51e67d75de49579fbf075f570903ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99797343020b41018a9dc7fb4f0a3bb3 = $(`<div id="html_99797343020b41018a9dc7fb4f0a3bb3" style="width: 100.0%; height: 100.0%;">衡水市:781.5</div>`)[0];
+            popup_cf51e67d75de49579fbf075f570903ad.setContent(html_99797343020b41018a9dc7fb4f0a3bb3);
+        
+
+        regular_polygon_marker_2485347371a241c99661b2a98599adb7.bindPopup(popup_cf51e67d75de49579fbf075f570903ad)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_8dac6a37066e4e538e696600ccf67507 = new L.RegularPolygonMarker(
+                [26.578342, 106.713478],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_4d49d9046b4d439fa5a66069dd41e184 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d599c5ff6d34950b59296375edf5092 = $(`<div id="html_4d599c5ff6d34950b59296375edf5092" style="width: 100.0%; height: 100.0%;">贵阳市:1121.82</div>`)[0];
+            popup_4d49d9046b4d439fa5a66069dd41e184.setContent(html_4d599c5ff6d34950b59296375edf5092);
+        
+
+        regular_polygon_marker_8dac6a37066e4e538e696600ccf67507.bindPopup(popup_4d49d9046b4d439fa5a66069dd41e184)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_7a9645f60e464436b45a756e30d9ca72 = new L.RegularPolygonMarker(
+                [36.084148, 111.517975],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_c96c504f1b1742ccb91933b1a41b8d81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_117de8f1a050476e92e7c90a34c34132 = $(`<div id="html_117de8f1a050476e92e7c90a34c34132" style="width: 100.0%; height: 100.0%;">临汾市:892.1</div>`)[0];
+            popup_c96c504f1b1742ccb91933b1a41b8d81.setContent(html_117de8f1a050476e92e7c90a34c34132);
+        
+
+        regular_polygon_marker_7a9645f60e464436b45a756e30d9ca72.bindPopup(popup_c96c504f1b1742ccb91933b1a41b8d81)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_e953033597ad4e5290d03bc5bd6340ff = new L.RegularPolygonMarker(
+                [28.570066, 112.355042],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_0438ff5b0e404f019d6340bb014a4dd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abbdb70414ce4abfabc5d5a4da4f67c5 = $(`<div id="html_abbdb70414ce4abfabc5d5a4da4f67c5" style="width: 100.0%; height: 100.0%;">益阳市:712.27</div>`)[0];
+            popup_0438ff5b0e404f019d6340bb014a4dd6.setContent(html_abbdb70414ce4abfabc5d5a4da4f67c5);
+        
+
+        regular_polygon_marker_e953033597ad4e5290d03bc5bd6340ff.bindPopup(popup_0438ff5b0e404f019d6340bb014a4dd6)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_fb93ddc60aa34eb2b90b2057fffd1f0c = new L.RegularPolygonMarker(
+                [34.022957, 113.826065],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_714dbe1dfe8c4b69a00a4f6e4a2d36eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_beefa7911d0742229327599adbb2cdc2 = $(`<div id="html_beefa7911d0742229327599adbb2cdc2" style="width: 100.0%; height: 100.0%;">许昌市:1312.78</div>`)[0];
+            popup_714dbe1dfe8c4b69a00a4f6e4a2d36eb.setContent(html_beefa7911d0742229327599adbb2cdc2);
+        
+
+        regular_polygon_marker_fb93ddc60aa34eb2b90b2057fffd1f0c.bindPopup(popup_714dbe1dfe8c4b69a00a4f6e4a2d36eb)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_767eb7d5de0b4a659aa939dd52892b21 = new L.RegularPolygonMarker(
+                [24.299112, 116.117584],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_0825bf863758483980c42819b9eef80a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3459bd7a047a43daa9ac4f5a8216baa0 = $(`<div id="html_3459bd7a047a43daa9ac4f5a8216baa0" style="width: 100.0%; height: 100.0%;">梅州市:612.36</div>`)[0];
+            popup_0825bf863758483980c42819b9eef80a.setContent(html_3459bd7a047a43daa9ac4f5a8216baa0);
+        
+
+        regular_polygon_marker_767eb7d5de0b4a659aa939dd52892b21.bindPopup(popup_0825bf863758483980c42819b9eef80a)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_914dcf289e9b433d96509d3cf79cd603 = new L.RegularPolygonMarker(
+                [28.889137, 105.443352],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_4b45a4d48ecc446c8c8b53cff51ceda3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a559d2f06e1e4b2fa3a378d0c4273648 = $(`<div id="html_a559d2f06e1e4b2fa3a378d0c4273648" style="width: 100.0%; height: 100.0%;">泸州市:714.81</div>`)[0];
+            popup_4b45a4d48ecc446c8c8b53cff51ceda3.setContent(html_a559d2f06e1e4b2fa3a378d0c4273648);
+        
+
+        regular_polygon_marker_914dcf289e9b433d96509d3cf79cd603.bindPopup(popup_4b45a4d48ecc446c8c8b53cff51ceda3)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_3db885214e004d8eac0e04dc258e17ff = new L.RegularPolygonMarker(
+                [37.857014, 112.549248],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_6fdde540ad0b478bada7d3132a5b88c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8de8b1f211294c49913e97cb9c83bb7f = $(`<div id="html_8de8b1f211294c49913e97cb9c83bb7f" style="width: 100.0%; height: 100.0%;">太原市:1778.05</div>`)[0];
+            popup_6fdde540ad0b478bada7d3132a5b88c7.setContent(html_8de8b1f211294c49913e97cb9c83bb7f);
+        
+
+        regular_polygon_marker_3db885214e004d8eac0e04dc258e17ff.bindPopup(popup_6fdde540ad0b478bada7d3132a5b88c7)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_e452d1a82bb64936967dbfa5f79f8bb2 = new L.RegularPolygonMarker(
+                [23.093599, 109.602142],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_9bb92c590dbc4ee99e2a97e41e5e0501 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27af5ce08b9a4600bba9c1168b89a932 = $(`<div id="html_27af5ce08b9a4600bba9c1168b89a932" style="width: 100.0%; height: 100.0%;">贵港市:527.8</div>`)[0];
+            popup_9bb92c590dbc4ee99e2a97e41e5e0501.setContent(html_27af5ce08b9a4600bba9c1168b89a932);
+        
+
+        regular_polygon_marker_e452d1a82bb64936967dbfa5f79f8bb2.bindPopup(popup_9bb92c590dbc4ee99e2a97e41e5e0501)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_cdf5fd70bf384c10a7dd5ea9a30223bc = new L.RegularPolygonMarker(
+                [30.702637, 111.29084],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_505d84dd06e94d9791613e4f04f4e742 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_927b1af346d54403a2bf6db7660c751f = $(`<div id="html_927b1af346d54403a2bf6db7660c751f" style="width: 100.0%; height: 100.0%;">宜昌市:1547.32</div>`)[0];
+            popup_505d84dd06e94d9791613e4f04f4e742.setContent(html_927b1af346d54403a2bf6db7660c751f);
+        
+
+        regular_polygon_marker_cdf5fd70bf384c10a7dd5ea9a30223bc.bindPopup(popup_505d84dd06e94d9791613e4f04f4e742)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_1f59e4e86a8646f6ad434fb356d1971d = new L.RegularPolygonMarker(
+                [39.467663, 75.989136],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_b538b9700dbe4f128058e012447395c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73b3b7db073641a382fe76283bade5c3 = $(`<div id="html_73b3b7db073641a382fe76283bade5c3" style="width: 100.0%; height: 100.0%;">喀什地区:375.0</div>`)[0];
+            popup_b538b9700dbe4f128058e012447395c7.setContent(html_73b3b7db073641a382fe76283bade5c3);
+        
+
+        regular_polygon_marker_1f59e4e86a8646f6ad434fb356d1971d.bindPopup(popup_b538b9700dbe4f128058e012447395c7)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_a9fd6538d21a4c219d64c761f6d4ee99 = new L.RegularPolygonMarker(
+                [32.303627, 118.316261],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_32b514b31c8145689afc17ff7c074680 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_649047420dd2482fa0eaab7459d0c277 = $(`<div id="html_649047420dd2482fa0eaab7459d0c277" style="width: 100.0%; height: 100.0%;">滁州市:695.65</div>`)[0];
+            popup_32b514b31c8145689afc17ff7c074680.setContent(html_649047420dd2482fa0eaab7459d0c277);
+        
+
+        regular_polygon_marker_a9fd6538d21a4c219d64c761f6d4ee99.bindPopup(popup_32b514b31c8145689afc17ff7c074680)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_f7c8e38ad77f4a7c933defd813ab5f7e = new L.RegularPolygonMarker(
+                [23.051546, 112.472527],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 10, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_751848883c2340acb9122f3382660ee0);
+        
+    
+        var popup_21c32470fbd64f6a95d6749fe93e9290 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24585c58b3f84ed79f2aaed3f13aa008 = $(`<div id="html_24585c58b3f84ed79f2aaed3f13aa008" style="width: 100.0%; height: 100.0%;">肇庆市:1065.9</div>`)[0];
+            popup_21c32470fbd64f6a95d6749fe93e9290.setContent(html_24585c58b3f84ed79f2aaed3f13aa008);
+        
+
+        regular_polygon_marker_f7c8e38ad77f4a7c933defd813ab5f7e.bindPopup(popup_21c32470fbd64f6a95d6749fe93e9290)
+        ;
+
+        
+    
+</script>

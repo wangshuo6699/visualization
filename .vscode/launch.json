@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: demo02.py",
+            "type": "python",
+            "request": "launch",
+            "program": "E:\\王硕\\visualization\\src\\folium_operat\\demo02.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: demo01.py",
+            "type": "python",
+            "request": "launch",
+            "program": "E:\\王硕\\visualization\\src\\folium_operat\\demo01.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: test03.py",
+            "type": "python",
+            "request": "launch",
+            "program": "E:\\王硕\\visualization\\src\\folium_operat\\test03.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: test02.py",
+            "type": "python",
+            "request": "launch",
+            "program": "E:\\王硕\\visualization\\src\\folium_operat\\test02.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: 01basicMap.py",
+            "type": "python",
+            "request": "launch",
+            "program": "E:\\王硕\\visualization\\src\\folium_operat\\01basicMap.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
